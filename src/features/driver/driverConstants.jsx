@@ -1,0 +1,4 @@
+export const CREATE_DRIVER = "CREATE_DRIVER";
+export const UPDATE_DRIVER = "UPDATE_DRIVER";
+export const DELETE_DRIVER = "DELETE_DRIVER";
+export const FETCH_DRIVERS = "FETCH_DRIVERS";
