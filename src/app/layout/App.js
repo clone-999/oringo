@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable'
 import LoadingComponent from './LoadingComponent'
 import { UserIsAuthenticated, CustomerIsAuthenticated, DriverIsAuthenticated, AdminIsAuthenticated } from '../../features/auth/authWrapper';
-
+   
 const AsyncNavBar  = Loadable({
   loader: () => import('../../features/nav/NavBar/NavBar'),
   loading: LoadingComponent
